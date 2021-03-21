@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Metadados -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Inserindo o arquivo CSS -->
 	<link rel="stylesheet" type="text/css" href="formulario.css" media="">
+	<!-- Título da página -->
 	<title>Cadastro</title>
 </head>
 
 <body>
 
+	<!-- Cabeçalho com título -->
 	<div>
 		<h1 id="titulo">Cadastro de DEVs</h1>
 		
 		<br>
 	</div>
 
+	<!-- Início do formulário -->
 	<form>
 		<fieldset class="grupo">
 			<div class="campo">
@@ -28,11 +33,13 @@
 			</div>
 		</fieldset>
 
+		<!-- Campo de email -->
 		<div class="campo">
 			<label for="email"><strong>Email</strong></label>
 			<input type="email" name="email" id="email" required>
 		</div>
 
+		<!-- Campo de desenvolvimento web com 3 opções de botões com CSS de classe "campo"-->
 		<div class="campo">
 			<label><strong>De qual lado da aplicação você desenvolve ?</strong></label>
 			<label>
@@ -47,7 +54,7 @@
 				<input type="radio" name="devweb" value="fullstack">Fullstack
 			</label>
 		</div>
-
+		<!-- Campo de para selecionar o nível do Dev -->
 		<div>
 			<label for="senioridade"><strong>Senioridade:</strong></label><br>
 			
@@ -61,6 +68,7 @@
 		<br>
 
 		<fieldset class="grupo">
+			<!-- Campo de tecnologias para a escolha de 1 ou mais opções -->
 			<div id="checkbox">
 				<label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
 				<input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -80,12 +88,14 @@
 			</div>
 		</fieldset>
 
+		<!-- Caixa de texto -->
 		<div class="campo">
 			<br>
 			<label>Conte um pouco da sua experiência:</label>
 			<textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
 		</div>
 
+		<!-- Botão para enviar o formulário -->
 		<button class="botao" type="submit">Concluído</button>
 
 	</form>

@@ -1,24 +1,25 @@
+/* Todos os elementos */
 *{
 	margin: 0;
 	padding: 0;
 }
-
+/* Elementos com o ID "titulo" */
 #titulo{
 	font-family: sans-serif;
 	color: #00FF7F;
 	margin-left: 7%;
 }
-
+/* Elementos com a classe usuario */
 .usuario {
 	margin-left: 23%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-
+/* Elementos de tag <fieldset> */
 fieldset{
 	border: 0;
 }
-
+/* Elementos com a tag <body> */
 body{
 	background-color: #1C1C1C; 	
 	font-family: sans-serif;
@@ -28,44 +29,44 @@ body{
 	margin-top: 2%;
 	justify-content: center;
 }
-
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
 input, select, textarea, button{
 	font-family: sans-serif;
 	font-size: 1em;
 	color: #1C1C1C;
 	border-radius: 5px;
 }
-
+/*Elementos com a classe "campo" */
 .campo{
 	margin-bottom: 1em;
 }
-
+/* Elementos de classe "campo" de tag <label> */
 .campo label{
 	margin-bottom: 0.2em;
 	color: #00FF7F;
 	display: block;
 }
-
+/* Elementos de classe "campo" ou "grupo" de tag <fiedlset> */
 fieldset.grupo .campo{
 	float: left;
 	margin-right: 1em;
 }
-
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea> */
 .campo input[type="text"] .campo input[type="email"] .campo select, .campo textarea{
 	padding: 0.2em;
 	border: 1px solid #59429d;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 	display: block;
 }
-
+/* Elementos de classe "campo" de tag "select" e <option> */
 .campo select option{
 	padding-right: 1em;
 }
-
+/* Elementos de classe "campo" com tag <input>, <select> e <textarea> */
 .campo input:focus, .campo select:focus, .campo textarea:focus{
 	background: #00FF7F;
 }
-
+/* Elemento de classe "botao" */
 .botao{
 	font-size:1.2em;
 	background: #556B2F;
@@ -81,13 +82,13 @@ fieldset.grupo .campo{
 	margin-right: -50%;
 	transform: translate(-50%, 50%);
 }
-
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover{
 	background: #ccbbff;
 	box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
 	text-shadow: none;
 }
-
+/* Elemento do id "check" */
 #check{
 	display: inline-block;
 }
